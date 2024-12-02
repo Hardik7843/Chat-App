@@ -60,7 +60,7 @@ export const sendMessage = async (req, res) => {
     
     await newMessage.save()
 
-    console.log("newMessage: ", newMessage)
+    // console.log("newMessage: ", newMessage)
     //TODO : real time functionality with socketIo
     const receiverSocketId = getReceiverSocketId(UserToChatId);
     
