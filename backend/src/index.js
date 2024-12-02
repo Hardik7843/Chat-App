@@ -22,9 +22,9 @@ app.use(cors(
 ))
 
 
-app.get('/', (req,res)=> {
-    res.send("Welcome to chat app")
-})
+// app.get('/', (req,res)=> {
+//     res.send("Welcome to chat app")
+// })
 
 
 app.use('/api/auth', authRoutes)
